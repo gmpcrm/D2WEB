@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Как перевести аудио в текст исользуя Yandex SpeechKit API</title>
+</head>
+<body>
+    <h1>Как пользоваться Yandex SpeechKit API</h1>
+    <p>Для того, чтобы перевести аудио в текст с помощью Yandex SpeechKit API, необходимо сделать следующее:</p>
+    
+    <ul>
+        <li>Зарегистрироваться в <a href="https://cloud.yandex.ru/">Yandex Cloud</a></li>
+        <li>Создать платежный аккаунт, при этом дают 4000 рублей на эксперименты <img width="100%" src="img/bonus1.jpg"></li>
+        <li>Грант на использование нужно потратить в течении 2х месяцев <img width="100%" src="img/bonus2.jpg"></li>
+    </ul>
+
+    <p>После этого</p>
+    <ol>
+        <li>Склонируйте репозиторий <a href="https://github.com/yandex-cloud/cloudapi" class="">Yandex Cloud API:</a></li>
+        <li>Узнайте идентификатор каталога, к которому у вашего аккаунта есть доступ</li>
+        <li>Для аутентификации в примерах используется <a href="https://cloud.yandex.ru/docs/iam/concepts/authorization/iam-token/" class="">IAM-токен.</a> Получите IAM-токен <a href="https://cloud.yandex.ru/docs/iam/operations/iam-token/create" class="">здесь</a></li>
+        <li>Скачайте пример <a href="https://storage.yandexcloud.net/speechkit/speech.pcm" class="">аудиофайла</a>  для распознавания. Аудиофайл имеет формат <a href="https://en.wikipedia.org/wiki/Pulse-code_modulation" class="">LPCM</a> с частотой дискретизации 8000.</li>
+    </ol>
+
+    <p>Ссылки:</p>
+    <a href="https://cloud.yandex.ru/docs/speechkit/stt/api/streaming-examples">Примеры использования API v2 потокового распознавания</a>
+</body>
+</html>
